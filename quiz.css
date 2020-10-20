@@ -1,0 +1,13 @@
+button{
+    background-color: Red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding: 0px;
+}
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+button:active{
+    background-color: white;
+}
