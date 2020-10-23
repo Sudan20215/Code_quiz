@@ -97,3 +97,24 @@ cursor: pointer;
     color: red;
     padding: 10px 20px;
 }
+.active{
+    background-color: lightgreen;
+    color: blue;
+}
+body{
+background-color:yellow;
+}
+.end{
+    align-content: center;
+    text-align: center;
+    padding: 200px 200px;
+    font-size: 40px;
+    font-style: italic;
+}
+.Goodjob,
+.Score,
+.Timetaken{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
