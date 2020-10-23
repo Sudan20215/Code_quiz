@@ -43,3 +43,57 @@ cursor: pointer;
 .welcomeF button:focus{
     outline:none;
 }
+.quiz{
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: 50px auto;
+    width: 800px;
+    height: 400px;
+    background-color: blue;
+
+}
+.quizhead{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 1px violet (0,0,0,0.3);
+    z-index: 1;
+}
+.quizbd{
+    padding:30px;
+    background-color:paleturquoise;
+}
+.head{
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.optionlist{
+    list-style: none;
+    margin: 10px auto;
+}
+.option{
+    background-color:white;
+    width: 400px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border: 3px solid transparent;
+}
+.option:hover{
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.btn-next{
+    background-color: red;
+    color: red;
+    padding: 10px 20px;
+}
