@@ -75,6 +75,8 @@ function nextf() {
     console.log("right")
   }
   if (question_count == questionl.length - 1) {
+    sessionStorage.setItem("time",`${min}min and ${sec}sec`);
+    clearInterval(timeinter)
     location.href = "final.html"
     return;
   }
