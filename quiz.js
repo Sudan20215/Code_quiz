@@ -1,5 +1,6 @@
 window.onload = function () {
   display(0);
+  
 }
 let questionl = [
   {
@@ -38,11 +39,11 @@ let questionl = [
   {
     id: 4,
     question: "What is the Capital of Usa?",
-    answer: "D.c",
+    answer: "Washington D.c",
     option: [
-      "NY",
-      "D.c",
-      "Cali",
+      "New York",
+      "Washington D.C",
+      "California",
       "Virginia"
     ]
   },
@@ -75,7 +76,7 @@ function nextf() {
     console.log("right")
   }
   if (question_count == questionl.length - 1) {
-    sessionStorage.setItem("time",`${min}min and ${sec}sec`);
+    sessionStorage.setItem("time",`${sec}sec`);
     clearInterval(timeinter)
     location.href = "final.html"
     return;
