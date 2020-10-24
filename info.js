@@ -1,6 +1,6 @@
 let name=sessionStorage.getItem("name");
-let scores=sessionStorage.getItem("scores");
+let score=sessionStorage.getItem("score");
 let time=sessionStorage.getItem("time")
 document.querySelector(".name").innerHTML=name;
-document.querySelector(".scores").innerHTML=scores;
+document.querySelector(".score").innerHTML=score;
 document.querySelector(".time").innerHTML=time;
